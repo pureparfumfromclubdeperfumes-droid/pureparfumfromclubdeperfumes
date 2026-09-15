@@ -1,5 +1,5 @@
 {
-  "name": "whiff-culture",
+  "name": "club-de-perfumes",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "16.3.5",
+    "razorpay": "^2.9.8",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
