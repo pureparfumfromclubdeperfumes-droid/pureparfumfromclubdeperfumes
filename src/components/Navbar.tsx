@@ -16,6 +16,7 @@ export default function Navbar() {
           <Link href="/products">Shop</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
+          <Link href="/pay">Pay Now</Link>
           <Link href="/cart">Cart ({totalItems})</Link>
         </nav>
       </div>

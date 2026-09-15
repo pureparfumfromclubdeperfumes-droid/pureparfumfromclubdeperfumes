@@ -5,14 +5,6 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 
-declare global {
-  interface Window {
-    Razorpay: new (options: Record<string, unknown>) => {
-      open: () => void;
-    };
-  }
-}
-
 export default function CheckoutPage() {
   const { totalPrice, clear } = useCart();
   const router = useRouter();
